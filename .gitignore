@@ -1,0 +1,12 @@
+# .gitignore for uv Python projects
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+dist/
+*.egg-info/
+.uv/
