@@ -56,3 +56,27 @@ install jax and create a notebook with a simple jax demo for solving a least squ
 > 4. Solving the problem using JAX's linear algebra routines and displaying the results.
 > 
 > You can open jax_least_squares_demo.ipynb in your workspace to view or run the demo. Let me know if you want to extend or modify the notebook!
+
+add jax and jaxlib to pyproject.toml
+
+> Copilot: 
+> ````
+> 
+> ````
+> 
+> ````
+> 
+> ````
+> 
+> ````
+> 
+> ````
+> JAX and jaxlib have been correctly added to the pyproject.toml under the `[project]` section as required by PEP 621. The `[project.dependencies]` section was removed, and the dependencies are now listed as an array in the correct place.
+> 
+> Your project is now properly configured to use JAX via uv and pyproject.toml. Let me know if you need anything else!
+
+in the notebook add code for solving the least squares problem using gradient descent
+
+> Copilot: Code and explanation for solving the least squares problem using gradient descent with JAX have been added to the notebook. The new cells include a markdown explanation and a code cell that implements gradient descent, prints progress, and compares the result to the true solution.
+> 
+> You can now run these new cells in your notebook to see gradient descent in action for the least squares problem. Let me know if you want to visualize the convergence or further enhance the demo!
